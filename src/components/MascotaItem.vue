@@ -2,7 +2,7 @@
     <div id="mascota-item">
 
         <div class="card" style="width: 18rem;">
-            <img v-bind:src="imgUrl" class="card-img-top" style="height: 10rem;" alt="...">
+            <img v-bind:src="mascota.imagen" class="card-img-top" style="height: 10rem;" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Nombre:{{mascota.nombre}}</h5>
                 <p class="card-text">{{mascota.descripcion}}</p>
